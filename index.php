@@ -116,6 +116,7 @@
                                         ':status' => 'Published'
                                     ]);
                                     while($posts = $stmt->fetch(PDO::FETCH_ASSOC)) {
+                                        $post_id = $posts['post_id'];
                                         $post_title = $posts['post_title'];
                                         $post_detail = substr($posts['post_detail'], 0, 140); 
                                         $post_image = $posts['post_image'];
@@ -125,7 +126,7 @@
                                         ?>
 
                                             <div class="col-md-6 col-xl-4 mb-5">
-                                                <a class="card post-preview lift h-100" href="#"
+                                                <a class="card post-preview lift h-100" href="single.php?post_id=<?php echo $post_id; ?>"
                                                     ><img class="card-img-top" src="./img/<?php echo $post_image; ?>" alt="<?php echo $post_image; ?>" />
                                                     <div class="card-body">
                                                         <h5 class="card-title"><?php echo $post_title; ?></h5>
@@ -133,7 +134,7 @@
                                                     </div>
                                                     <div class="card-footer d-flex align-items-center justify-content-between">
                                                         <div class="post-preview-meta">
-                                                            <img class="post-preview-meta-img" src="./img/ing.jpg" />
+                                                            <img class="post-preview-meta-img" src="./img/mdabarik.jpg" />
                                                             <div class="post-preview-meta-details">
                                                                 <div class="post-preview-meta-details-name"><?php echo $post_author; ?></div>
                                                                 <div class="post-preview-meta-details-date">Posted on: <?php echo $post_date; ?></div>
@@ -239,7 +240,8 @@
                                     ]);
                                     while($categories = $stmt->fetch(PDO::FETCH_ASSOC)) {
                                         $category_title = $categories['category_name'];
-                                        $total_posts = $categories['category_total_posts']; ?>
+                                        $total_posts = $categories['category_total_posts'];
+                                        ?>
                                         <div class="col-lg-4 col-md-6 mb-5">
                                             <a class="card card-link border-top border-top-lg border-primary h-100 lift" href="#!"
                                                 ><div class="card-body p-5">
