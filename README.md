@@ -60,6 +60,9 @@
 
 ### 11. Post views
 
+        modified:   README.md
+        modified:   index.php
+
 ### 12. Creating categories table
 
 ### 13. Dynamic categories

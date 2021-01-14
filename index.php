@@ -121,6 +121,7 @@
                                         $post_image = $posts['post_image'];
                                         $post_date = $posts['post_date'];
                                         $post_author = $posts['post_author'];
+                                        $post_views = $posts['post_views'];
                                         ?>
 
                                             <div class="col-md-6 col-xl-4 mb-5">
@@ -130,13 +131,16 @@
                                                         <h5 class="card-title"><?php echo $post_title; ?></h5>
                                                         <p class="card-text"><?php echo $post_detail; ?></p>
                                                     </div>
-                                                    <div class="card-footer">
+                                                    <div class="card-footer d-flex align-items-center justify-content-between">
                                                         <div class="post-preview-meta">
                                                             <img class="post-preview-meta-img" src="./img/ing.jpg" />
                                                             <div class="post-preview-meta-details">
                                                                 <div class="post-preview-meta-details-name"><?php echo $post_author; ?></div>
                                                                 <div class="post-preview-meta-details-date">Posted on: <?php echo $post_date; ?></div>
                                                             </div>
+                                                        </div>
+                                                        <div class="post-preview-meta">
+                                                            <?php echo $post_views; ?>
                                                         </div>
                                                     </div>
                                                 </a>
