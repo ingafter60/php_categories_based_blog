@@ -42,6 +42,13 @@
                             $post_category = $post['post_category'];
                             $post_detail = $post['post_detail'];
                             $post_author = $post['post_author'];
+
+                            $sql1 = "UPDATE posts SET post_views = post_views + 1 WHERE post_id = :id";
+                            $stmt = $pdo->prepare($sql1);
+                            $stmt->execute([
+                                ':id' => $post_id
+                            ]);
+
                         } else {
                             header("Location: index.php");
                         }

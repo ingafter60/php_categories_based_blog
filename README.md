@@ -83,6 +83,9 @@
 
 ### 16. Implementation of post views
 
+        modified:   README.md
+        modified:   single.php
+        
 ### 17. Most viewed post
 
 ### 18. Most popular post
