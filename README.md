@@ -85,9 +85,12 @@
 
         modified:   README.md
         modified:   single.php
-        
+
 ### 17. Most viewed post
 
+        modified:   README.md
+        modified:   index.php
+        
 ### 18. Most popular post
 
 ### 19. Update most popular post
