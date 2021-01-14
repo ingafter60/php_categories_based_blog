@@ -67,6 +67,9 @@
 
 ### 13. Dynamic categories
 
+        modified:   README.md
+        modified:   index.php
+
 ### 14. Post detail page
 
 ### 15. Update post detail page
