@@ -90,9 +90,12 @@
 
         modified:   README.md
         modified:   index.php
-        
+
 ### 18. Most popular post
 
+        modified:   README.md
+        modified:   index.php
+        
 ### 19. Update most popular post
 
 ### 20. Privacy policy and terms and conditions pages
