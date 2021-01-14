@@ -95,9 +95,12 @@
 
         modified:   README.md
         modified:   index.php
-        
+
 ### 19. Update most popular post
 
+        Its done on video 18. It was about link to single page by id
+        modified:   README.md
+        
 ### 20. Privacy policy and terms and conditions pages
 
 ### 21. About us
@@ -141,7 +144,6 @@
 ### 40. Sign in successful messages
 
 ### 41. Logout sessions
-10min
 
 ### 42. Protecting backend ~ Adming panel accessibility
 
