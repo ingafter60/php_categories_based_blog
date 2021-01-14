@@ -34,10 +34,16 @@
                                 ':id' => $post_id
                             ]);
                             $post = $stmt->fetch(PDO::FETCH_ASSOC);
+                            $count = $stmt->rowCount();
+                            if($count == 0) {
+                                header("Location: index.php");
+                            }
                             $post_title = $post['post_title'];
                             $post_category = $post['post_category'];
                             $post_detail = $post['post_detail'];
                             $post_author = $post['post_author'];
+                        } else {
+                            header("Location: index.php");
                         }
                     ?>
 

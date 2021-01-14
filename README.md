@@ -75,8 +75,11 @@
         modified:   README.md
         modified:   index.php
         modified:   single.php
-        
+
 ### 15. Update post detail page
+
+        modified:   README.md
+        modified:   single.php
 
 ### 16. Implementation of post views
 
