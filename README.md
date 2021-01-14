@@ -24,18 +24,39 @@
         new file:   single.php
 
 ### 5. PDO Configuration
+	
+        PASS
 
 ### 6. Database connection
+	
+        PASS
+
 
 ## SECTION 3: Front End ~ Posts ~ Categories ~ Search Engine ~ Login Registration System
 
 ### 7. Creating database table posts
+	
+        PASS
 
 ### 8. Inserting dummy posts
+	
+        PASS
 
 ### 9. Making our posts dynamic
+	
+        PASS
 
-### 10. Working with post author and post date
+### 10. Making our posts dynamic, Working with post author and post date
+
+        modified:   README.md
+        new file:   img/ing.jpg
+        deleted:    img/mdabarik.jpg
+        new file:   img/photo1.jpg
+        new file:   img/photo2.jpg
+        new file:   img/photo3.jpg
+        new file:   includes/db.php
+        modified:   includes/header.php
+        modified:   index.php
 
 ### 11. Post views
 
