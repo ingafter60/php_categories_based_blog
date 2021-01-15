@@ -159,7 +159,13 @@
         modified:   index.php
         modified:   search.php
 
-### 27. Categories
+### 27. Modified category_post and add more categories in the db
+
+        > modified category_post field in db from category_post to category_post_id
+        > modified category_post data type from varchar to int
+        > added 2 more categories
+        > modified the category_id
+        modified:   README.md
 
 ### 28. Category pages
 
