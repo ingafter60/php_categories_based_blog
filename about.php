@@ -1,3 +1,5 @@
+<?php $current_page = "About us"; ?>
+
 <?php require_once("./includes/header.php"); ?>
 
         <div id="layoutDefault">

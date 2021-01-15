@@ -120,6 +120,17 @@
         
 ### 22. Status bar title
 
+        modified:   README.md
+        modified:   about.php
+        modified:   categories.php
+        modified:   contact.php
+        modified:   includes/header.php
+        modified:   index.php
+        modified:   privacy-policy.php
+        modified:   search.php
+        modified:   single.php
+        modified:   terms-conditions.php
+
 ### 23. Update date
 
 ### 24. Creating four more dummy post

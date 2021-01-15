@@ -1,3 +1,4 @@
+<?php $current_page = "Terms and Conditions"; ?>
 <?php require_once("./includes/header.php"); ?>
 
         <div id="layoutDefault">

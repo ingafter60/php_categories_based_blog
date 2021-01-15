@@ -1,5 +1,5 @@
+<?php $current_page = "Categories"; ?>
 <?php require_once("./includes/header.php"); ?>
-
         <div id="layoutDefault">
             <div id="layoutDefault_content">
                 <main>

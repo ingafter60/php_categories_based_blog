@@ -1,3 +1,4 @@
+<?php $current_page = "Privacy Policy"; ?>
 <?php require_once("./includes/header.php"); ?>
 
         <div id="layoutDefault">
