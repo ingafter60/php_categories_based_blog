@@ -167,8 +167,13 @@
         > modified the category_id
         modified:   README.md
 
-### 28. Category pages
+### 28. Category pages - Load page based on categories
 
+        modified:   README.md
+        modified:   categories.php
+        modified:   index.php
+        modified:   single.php
+        
 ### 29. Post category page
 
 ### 30. Search engine for category post

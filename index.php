@@ -44,7 +44,9 @@
                                                         <input name="search-keyword" class="form-control form-control-solid rounded-pill" type="text" placeholder="Search keyword..."/>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-3 col-md-4"><button class="btn btn-teal btn-block btn-marketing rounded-pill" type="submit">Search</button></div>
+                                                <div class="col-lg-3 col-md-4">
+                                                    <button class="btn btn-teal btn-block btn-marketing rounded-pill" type="submit">Search</button>
+                                                </div>
                                             </div>
                                         </form>
 
@@ -70,7 +72,6 @@
                                     <clipPath id="a"><rect class="a" width="1920" height="75" /></clipPath>
                                 </defs>
                                 <title>wave</title>
-                                <g class="b"><path class="c" d="M1963,327H-105V65A2647.49,2647.49,0,0,1,431,19c217.7,3.5,239.6,30.8,470,36,297.3,6.7,367.5-36.2,642-28a2511.41,2511.41,0,0,1,420,48" /></g>
                                 <g class="b"><path class="d" d="M-127,404H1963V44c-140.1-28-343.3-46.7-566,22-75.5,23.3-118.5,45.9-162,64-48.6,20.2-404.7,128-784,0C355.2,97.7,341.6,78.3,235,50,86.6,10.6-41.8,6.9-127,10" /></g>
                                 <g class="b"><path class="d" d="M1979,462-155,446V106C251.8,20.2,576.6,15.9,805,30c167.4,10.3,322.3,32.9,680,56,207,13.4,378,20.3,494,24" /></g>
                                 <g class="b"><path class="d" d="M1998,484H-243V100c445.8,26.8,794.2-4.1,1035-39,141-20.4,231.1-40.1,378-45,349.6-11.6,636.7,73.8,828,150" /></g>
@@ -82,7 +83,6 @@
                         <div class="container">
                         <h1>Most popular post:</h1>
                         <hr />
-                        
                         <?php 
                             $sql4 = "SELECT * FROM posts ORDER BY post_views DESC LIMIT 0, 1";
                             $stmt = $pdo->prepare($sql4);
@@ -95,7 +95,6 @@
                             $post_date = $post['post_date'];
                             $post_image = $post['post_image'];
                         ?>
-                            
                             <a class="card post-preview post-preview-featured lift mb-5" href="single.php?post_id=<?php echo $post_id; ?>">
                                 <div class="row no-gutters">
                                     <div class="col-lg-5"><div class="post-preview-featured-img" style='background-image: url("./img/<?php echo $post_image; ?>")'></div></div>
@@ -109,7 +108,7 @@
                                             </div>
                                             <hr />
                                             <div class="post-preview-meta">
-                                                <img class="post-preview-meta-img" src="./img/ing.jpg" />
+                                                <img class="post-preview-meta-img" src="./img/mdabarik.jpg" />
                                                 <div class="post-preview-meta-details">
                                                     <div class="post-preview-meta-details-name"><?php echo $post_author; ?></div>
                                                     <div class="post-preview-meta-details-date"><?php echo $post_date; ?></div>
@@ -148,7 +147,7 @@
                                                     </div>
                                                     <div class="card-footer d-flex align-items-center justify-content-between">
                                                         <div class="post-preview-meta">
-                                                            <img class="post-preview-meta-img" src="./img/ing.jpg" />
+                                                            <img class="post-preview-meta-img" src="./img/mdabarik.jpg" />
                                                             <div class="post-preview-meta-details">
                                                                 <div class="post-preview-meta-details-name"><?php echo $post_author; ?></div>
                                                                 <div class="post-preview-meta-details-date"><?php echo $post_date; ?></div>
@@ -207,7 +206,7 @@
                                                     </div>
                                                     <div class="card-footer d-flex align-items-center justify-content-between">
                                                         <div class="post-preview-meta">
-                                                            <img class="post-preview-meta-img" src="./img/ing.jpg" />
+                                                            <img class="post-preview-meta-img" src="./img/mdabarik.jpg" />
                                                             <div class="post-preview-meta-details">
                                                                 <div class="post-preview-meta-details-name"><?php echo $post_author; ?></div>
                                                                 <div class="post-preview-meta-details-date">Posted on: <?php echo $post_date; ?></div>
@@ -235,11 +234,12 @@
                                         ':status' => 'Published'
                                     ]);
                                     while($categories = $stmt->fetch(PDO::FETCH_ASSOC)) {
+                                        $category_id = $categories['category_id'];
                                         $category_title = $categories['category_name'];
                                         $total_posts = $categories['category_total_posts'];
                                         ?>
                                         <div class="col-lg-4 col-md-6 mb-5">
-                                            <a class="card card-link border-top border-top-lg border-primary h-100 lift" href="#!"
+                                            <a class="card card-link border-top border-top-lg border-primary h-100 lift" href="categories.php?category_id=<?php echo $category_id; ?>&category_name=<?php echo $category_title; ?>"
                                                 ><div class="card-body p-5">
                                                     <div class="icon-stack icon-stack-lg bg-primary-soft text-primary mb-4"><i data-feather="user"></i></div>
                                                     <h6><?php echo $category_title; ?></h6>
@@ -273,7 +273,6 @@
                                     <clipPath id="a"><rect class="a" width="1920" height="75" /></clipPath>
                                 </defs>
                                 <title>wave</title>
-                                <g class="b"><path class="c" d="M1963,327H-105V65A2647.49,2647.49,0,0,1,431,19c217.7,3.5,239.6,30.8,470,36,297.3,6.7,367.5-36.2,642-28a2511.41,2511.41,0,0,1,420,48" /></g>
                                 <g class="b"><path class="d" d="M-127,404H1963V44c-140.1-28-343.3-46.7-566,22-75.5,23.3-118.5,45.9-162,64-48.6,20.2-404.7,128-784,0C355.2,97.7,341.6,78.3,235,50,86.6,10.6-41.8,6.9-127,10" /></g>
                                 <g class="b"><path class="d" d="M1979,462-155,446V106C251.8,20.2,576.6,15.9,805,30c167.4,10.3,322.3,32.9,680,56,207,13.4,378,20.3,494,24" /></g>
                                 <g class="b"><path class="d" d="M1998,484H-243V100c445.8,26.8,794.2-4.1,1035-39,141-20.4,231.1-40.1,378-45,349.6-11.6,636.7,73.8,828,150" /></g>

@@ -40,7 +40,7 @@
                                 header("Location: index.php");
                             }
                             $post_title = $post['post_title'];
-                            $post_category = $post['post_category'];
+                            $post_category = $post['post_category_id'];
                             $post_detail = $post['post_detail'];
                             $post_author = $post['post_author'];
 
