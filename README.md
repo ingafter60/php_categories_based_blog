@@ -148,7 +148,10 @@
         modified:   index.php
 
 
-### 25. Update post on home page
+### 25. Update post on home page to show LIFO and limit to show only 6 last posts
+
+        modified:   README.md
+        modified:   index.php
 
 ### 26. Let's build a search engine
 

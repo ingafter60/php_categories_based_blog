@@ -122,7 +122,7 @@
                             <hr />
                             <div class="row">
                                 <?php
-                                    $sql = "SELECT * FROM posts WHERE post_status = :status";
+                                    $sql = "SELECT * FROM posts WHERE post_status = :status ORDER BY post_id DESC LIMIT 0, 6";
                                     $stmt = $pdo->prepare($sql);
                                     $stmt->execute([
                                         ':status' => 'Published'
