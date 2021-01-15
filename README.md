@@ -155,6 +155,10 @@
 
 ### 26. Let's build a search engine
 
+        modified:   README.md
+        modified:   index.php
+        modified:   search.php
+
 ### 27. Categories
 
 ### 28. Category pages
