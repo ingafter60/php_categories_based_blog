@@ -115,6 +115,9 @@
 
 ### 21. About us
 
+        modified:   README.md
+        modified:   about.php
+        
 ### 22. Status bar title
 
 ### 23. Update date
