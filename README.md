@@ -100,8 +100,18 @@
 
         Its done on video 18. It was about link to single page by id
         modified:   README.md
-        
+
 ### 20. Privacy policy and terms and conditions pages
+
+        modified:   README.md
+        modified:   categories.php
+        modified:   contact.php
+        modified:   index.php
+        modified:   page.php
+        new file:   privacy-policy.php
+        modified:   search.php
+        modified:   single.php
+        new file:   terms-conditions.php
 
 ### 21. About us
 

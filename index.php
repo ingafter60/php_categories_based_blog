@@ -288,9 +288,9 @@
                         <div class="row align-items-center">
                             <div class="col-md-6 small">Copyright &#xA9; TechBarik 2020</div>
                             <div class="col-md-6 text-md-right small">
-                                <a href="#">Privacy Policy</a>
+                                <a href="privacy-policy.php">Privacy Policy</a>
                                 &#xB7;
-                                <a href="#">Terms &amp; Conditions</a>
+                                <a href="terms-conditions.php">Terms &amp; Conditions</a>
                             </div>
                         </div>
                     </div>
