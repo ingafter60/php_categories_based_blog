@@ -133,6 +133,9 @@
 
 ### 23. Update date
 
+        modified:   README.md
+        modified:   index.php
+        
 ### 24. Creating four more dummy post
 
 ### 25. Update post on home page
