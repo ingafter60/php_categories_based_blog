@@ -135,8 +135,18 @@
 
         modified:   README.md
         modified:   index.php
-        
+
 ### 24. Creating four more dummy post
+
+        > Changed the post_date data type from DATE to VARCHAR
+        > Added four more dummy posts
+        modified:   README.md
+        new file:   img/ctci-1.png
+        new file:   img/ctci-2.png
+        new file:   img/ctci-3.png
+        new file:   img/ctci-4.png
+        modified:   index.php
+
 
 ### 25. Update post on home page
 
